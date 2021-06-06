@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    color:grey;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-key {
+    color: black;
+    border-bottom: 3px solid rgb(44, 44, 207);
+}
+
+.hide {
+    opacity: .5;
+}
+
+.logo > img {
+    width: 170px;
+    height: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.dot {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color: rgb(91, 91, 248);
+    margin-left: 2px;
+}
+
+.title + p {
+    color: rgb(107, 107, 107);
+}
+
+.new-account-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.new-account {
+    padding: 18px 35px;
+    background-color: rgb(91, 91, 248);
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.your-account-button {
+    background-color: pink;
+    color: rgb(44, 44, 207);
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 400px;
+    padding: 4px 12px;
+    margin-bottom: 8px;
+}
+
+.selected-task {
+    background-color: white;    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.selected-task > p {
+    font-size: 17px;
+}
+
+.color-bar {
+    width: 30px;
+    border-radius: 10px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.first-color-bar {
+    background-color: pink;
+}
+
+.second-color-bar {
+    background-color: rgb(255, 76, 76);
+}
+
+.third-color-bar {
+    background-color: rgb(90, 189, 90);
+}
+
+.fourth-color-bar {
+    background-color: rgb(250, 213, 144);
+}
+
+.task-name {
+    width: 110px;
+    font-weight: 500;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.date {
+    color: rgb(156, 156, 156);
+}
